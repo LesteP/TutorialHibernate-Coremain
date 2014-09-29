@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.tutorial.model.Person;
 
-public class PersonDaoTestCase extends BaseDaoTestCase {
+public class PersonDaoTest extends BaseDaoTestCase {
 
 	@Autowired
 	private PersonDao personDao;
